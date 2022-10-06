@@ -518,6 +518,11 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
+  justify-content: center;
+  overflow: hidden;
+=======
+>>>>>>> e01a3c8f28fc3bb62aa5af86888b5bd8d2924036
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -527,6 +532,20 @@ a:focus {
   height: 215px;
   border-radius: 0 0 0 45px;
   margin: -1px;
+<<<<<<< HEAD
+  padding: 2px;
+  
+}
+
+.food_section .box .img-box img {
+ min-width: 100%;
+ min-height: 100%;
+ flex-shrink: o;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  
+  
+=======
   padding: 25px;
 }
 
@@ -535,6 +554,7 @@ a:focus {
   max-height: 145px;
   -webkit-transition: all .2s;
   transition: all .2s;
+>>>>>>> e01a3c8f28fc3bb62aa5af86888b5bd8d2924036
 }
 
 .food_section .box .detail-box {
