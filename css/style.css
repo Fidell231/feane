@@ -55,6 +55,10 @@ h2 {
   font-weight: bold;
 }
 
+
+
+
+
 .heading_container h2 span {
   color: #ffbe33;
 }
@@ -323,17 +327,22 @@ a:focus {
           align-items: center;
   position: relative;
   padding: 45px 0 75px 0;
+  
+  
 }
 
 .slider_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          
+    
 }
 
 .slider_section #customCarousel1 {
   width: 100%;
   position: unset;
+  
 }
 
 .slider_section .detail-box {
@@ -518,11 +527,8 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
   justify-content: center;
   overflow: hidden;
-=======
->>>>>>> e01a3c8f28fc3bb62aa5af86888b5bd8d2924036
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -532,7 +538,6 @@ a:focus {
   height: 215px;
   border-radius: 0 0 0 45px;
   margin: -1px;
-<<<<<<< HEAD
   padding: 2px;
   
 }
@@ -545,16 +550,6 @@ a:focus {
   transition: all .2s;
   
   
-=======
-  padding: 25px;
-}
-
-.food_section .box .img-box img {
-  max-width: 100%;
-  max-height: 145px;
-  -webkit-transition: all .2s;
-  transition: all .2s;
->>>>>>> e01a3c8f28fc3bb62aa5af86888b5bd8d2924036
 }
 
 .food_section .box .detail-box {
@@ -684,6 +679,10 @@ a:focus {
 
 .book_section {
   position: relative;
+  
+ 
+  
+  
 }
 
 .book_section .heading_container {
@@ -696,10 +695,11 @@ a:focus {
   height: 50px;
   margin-bottom: 25px;
   padding-left: 25px;
+  float: left;
   border: 1px solid #999;
   outline: none;
   color: #000000;
-  border-radius: 5px;
+  border-radius: 10px;
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -746,7 +746,7 @@ a:focus {
 .book_section .map_container {
   width: 100%;
   height: 345px;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
 }
 
@@ -1025,3 +1025,23 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+.abotform {
+
+ width: 100%;
+
+ 
+}
+
+label {
+  width: 100%;
+
+}
+
+.immg-box {
+  
+  padding: 5px;
+  max-height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
